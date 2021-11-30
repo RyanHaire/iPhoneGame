@@ -13,6 +13,9 @@
 		6A3BE2D8275121010004EAF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3BE2D7275121010004EAF6 /* Preview Assets.xcassets */; };
 		6A3BE2DA275121010004EAF6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BE2D9275121010004EAF6 /* Persistence.swift */; };
 		6A3BE2DD275121010004EAF6 /* Assignment_4_HAIRER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BE2DB275121010004EAF6 /* Assignment_4_HAIRER.xcdatamodeld */; };
+		6A3BE2E5275121290004EAF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BE2E4275121290004EAF6 /* GameScene.swift */; };
+		6A3BE2E9275121AE0004EAF6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BE2E8275121AE0004EAF6 /* GameView.swift */; };
+		6A3BE3142754A2870004EAF6 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BE3132754A2870004EAF6 /* FinalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6A3BE2D9275121010004EAF6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6A3BE2DC275121010004EAF6 /* Assignment_4_HAIRER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment_4_HAIRER.xcdatamodel; sourceTree = "<group>"; };
 		6A3BE2DE275121010004EAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3BE2E4275121290004EAF6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6A3BE2E8275121AE0004EAF6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6A3BE3132754A2870004EAF6 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				6A3BE2DE275121010004EAF6 /* Info.plist */,
 				6A3BE2DB275121010004EAF6 /* Assignment_4_HAIRER.xcdatamodeld */,
 				6A3BE2D6275121010004EAF6 /* Preview Content */,
+				6A3BE2E4275121290004EAF6 /* GameScene.swift */,
+				6A3BE2E8275121AE0004EAF6 /* GameView.swift */,
+				6A3BE3132754A2870004EAF6 /* FinalView.swift */,
 			);
 			path = "Assignment-4-HAIRER";
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3BE3142754A2870004EAF6 /* FinalView.swift in Sources */,
+				6A3BE2E5275121290004EAF6 /* GameScene.swift in Sources */,
 				6A3BE2DD275121010004EAF6 /* Assignment_4_HAIRER.xcdatamodeld in Sources */,
 				6A3BE2DA275121010004EAF6 /* Persistence.swift in Sources */,
 				6A3BE2D3275120FE0004EAF6 /* ContentView.swift in Sources */,
+				6A3BE2E9275121AE0004EAF6 /* GameView.swift in Sources */,
 				6A3BE2D1275120FE0004EAF6 /* Assignment_4_HAIRERApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
